@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iUMe", "iUMe\iUMe.vcxproj", "{E6632461-6D8E-4095-93CE-9C6705ADC81E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iUMeCalendar", "iUMeCalendar\iUMeCalendar.vcxproj", "{12F634A6-62C4-4EC3-89B1-676AA254A8B4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iUMeVideo", "iUMeVideo\iUMeVideo.vcxproj", "{146DAB7A-CB8F-4A2D-A30C-5C108DA7B490}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iUMeCloud", "iUMeCloud\iUMeCloud.vcxproj", "{AF2601F9-094E-4718-84BA-928B49F44949}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6632461-6D8E-4095-93CE-9C6705ADC81E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E6632461-6D8E-4095-93CE-9C6705ADC81E}.Debug|Win32.Build.0 = Debug|Win32
+		{E6632461-6D8E-4095-93CE-9C6705ADC81E}.Release|Win32.ActiveCfg = Release|Win32
+		{E6632461-6D8E-4095-93CE-9C6705ADC81E}.Release|Win32.Build.0 = Release|Win32
+		{12F634A6-62C4-4EC3-89B1-676AA254A8B4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{12F634A6-62C4-4EC3-89B1-676AA254A8B4}.Debug|Win32.Build.0 = Debug|Win32
+		{12F634A6-62C4-4EC3-89B1-676AA254A8B4}.Release|Win32.ActiveCfg = Release|Win32
+		{12F634A6-62C4-4EC3-89B1-676AA254A8B4}.Release|Win32.Build.0 = Release|Win32
+		{146DAB7A-CB8F-4A2D-A30C-5C108DA7B490}.Debug|Win32.ActiveCfg = Debug|Win32
+		{146DAB7A-CB8F-4A2D-A30C-5C108DA7B490}.Debug|Win32.Build.0 = Debug|Win32
+		{146DAB7A-CB8F-4A2D-A30C-5C108DA7B490}.Release|Win32.ActiveCfg = Release|Win32
+		{146DAB7A-CB8F-4A2D-A30C-5C108DA7B490}.Release|Win32.Build.0 = Release|Win32
+		{AF2601F9-094E-4718-84BA-928B49F44949}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AF2601F9-094E-4718-84BA-928B49F44949}.Debug|Win32.Build.0 = Debug|Win32
+		{AF2601F9-094E-4718-84BA-928B49F44949}.Release|Win32.ActiveCfg = Release|Win32
+		{AF2601F9-094E-4718-84BA-928B49F44949}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

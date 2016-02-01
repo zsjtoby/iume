@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{61052ff9-2bed-4c8d-a31d-77c0f8df3430}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public">
+      <UniqueIdentifier>{03e02860-c778-422d-8f90-c2b042fbe2e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\ado">
+      <UniqueIdentifier>{ce9d4214-e754-4eea-979d-620056b1a2b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\crypt">
+      <UniqueIdentifier>{dc666a71-601e-45c0-9f30-a60469cce459}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\file">
+      <UniqueIdentifier>{f0d6b12e-f84a-4813-b1da-d1f1e9271f26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\tinyxml">
+      <UniqueIdentifier>{65a08326-ebb2-4318-af7b-c4ae5eaeeacc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\winhttp">
+      <UniqueIdentifier>{a3fe90a6-897e-4c8f-8f03-ca137a2cb13f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\convert">
+      <UniqueIdentifier>{4dadd986-7194-4e5e-8641-28796f177eeb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\iUMe.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\iUMe.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\common\crypt\des.inl">
+      <Filter>common\crypt</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Skin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiMenu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AppClient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BookClient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadClient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="iUMe.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Setup.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="trayiconimpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Card.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="About.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Guide.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="public\mydefine.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="public\PubUnit.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\ado\AdoDB.h">
+      <Filter>common\ado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\crypt\aes.h">
+      <Filter>common\crypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\crypt\crc32.h">
+      <Filter>common\crypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\crypt\des.h">
+      <Filter>common\crypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\crypt\md5.h">
+      <Filter>common\crypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\file\bkjson.h">
+      <Filter>common\file</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\file\IniFile.h">
+      <Filter>common\file</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\winhttp\winhttp.h">
+      <Filter>common\winhttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\winhttp\WinHttpApi.h">
+      <Filter>common\winhttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\tinyxml\tinystr.h">
+      <Filter>common\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\tinyxml\tinyxml.h">
+      <Filter>common\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\convert\kscbase.h">
+      <Filter>common\convert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\convert\kscconv.h">
+      <Filter>common\convert</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Skin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiMenu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AppClient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BookClient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadClient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MsgBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="iUMe.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Setup.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Card.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="About.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Guide.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="public\PubUnit.cpp">
+      <Filter>public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\ado\AdoDB.cpp">
+      <Filter>common\ado</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\crypt\aes.cpp">
+      <Filter>common\crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\crypt\crc32.cpp">
+      <Filter>common\crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\crypt\md5.cpp">
+      <Filter>common\crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\file\bkjson.cpp">
+      <Filter>common\file</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\file\IniFile.cpp">
+      <Filter>common\file</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\winhttp\WinHttpApi.cpp">
+      <Filter>common\winhttp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\tinyxml\tinystr.cpp">
+      <Filter>common\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\tinyxml\tinyxml.cpp">
+      <Filter>common\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\tinyxml\tinyxmlerror.cpp">
+      <Filter>common\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\tinyxml\tinyxmlparser.cpp">
+      <Filter>common\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\convert\kscconv.cpp">
+      <Filter>common\convert</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="iUMe.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

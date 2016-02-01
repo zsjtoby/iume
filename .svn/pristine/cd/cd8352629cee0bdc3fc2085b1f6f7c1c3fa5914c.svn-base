@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<appinfo>
+    <AcroRd32 id="4003" text="PDF阅读器" />
+    <IEXPLORE id="4004" text="IE浏览器" />
+    <Maxthon id="4008" text="傲游浏览器" />
+    <QQProtect id="4002" text="腾讯QQ" />
+    <QPlusDesktop id="4007" text="Q+桌面" />
+    <UCBrowser id="4001" text="UC浏览器" />
+    <XDict id="4006" text="金山词霸" />
+</appinfo>
